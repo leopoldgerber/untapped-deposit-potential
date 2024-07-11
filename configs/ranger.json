@@ -3,5 +3,15 @@
         "START": 0,
         "END": 100,
         "STEP": 10
+    },
+    "medium" : {
+        "START": 0,
+        "END": 1000,
+        "STEP": 100
+    },
+    "large": {
+        "START": 0,
+        "END": 1000,
+        "STEP": 10000
     }
 }
