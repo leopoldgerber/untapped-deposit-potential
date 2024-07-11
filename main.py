@@ -14,3 +14,8 @@ df = preprocessing.drop_names(df, 'name', DROP_NAMES)
 FILE_PATH = preprocessing.get_output()
 FILE_PATH = preprocessing.df_to_xlsx(df, 'df_cutted', FILE_PATH)
 print(FILE_PATH)
+
+RANGER_DICT = preprocessing.get_config('ranger.json')
+ranger = preprocessing.CreateRange()
+ranger.create_range(df, 'usd', RANGER_DICT)
+print(df)
