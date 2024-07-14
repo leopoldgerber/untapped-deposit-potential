@@ -2,7 +2,7 @@
     "small": {
         "START": 0,
         "END": 100,
-        "STEP": 10
+        "STEP": 5
     },
     "medium" : {
         "START": 0,
